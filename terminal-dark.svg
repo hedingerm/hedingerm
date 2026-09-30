@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 372" width="800" height="372" role="img" aria-label="Terminal session: whoami, stack, now, and a link to manuel.sh">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 372" width="800" height="372" role="img" aria-label="Terminal session: whoami, stack, now, and a link to hedinger-digital.ch">
   <style>
     .bg { fill: #191724; }
     .bar { fill: #26233a; }
@@ -29,7 +29,7 @@
   <circle cx="22" cy="20" r="6" fill="#eb6f92"/>
   <circle cx="42" cy="20" r="6" fill="#f6c177"/>
   <circle cx="62" cy="20" r="6" fill="#9ccfd8"/>
-  <text class="title" x="400" y="24" text-anchor="middle">manuel@manuel.sh: ~</text>
+  <text class="title" x="400" y="24" text-anchor="middle">manuel@hedinger-digital.ch: ~</text>
 
   <text class="l l1" x="24" y="76"><tspan class="dir">~</tspan> <tspan class="prompt">❯</tspan> <tspan class="cmd">whoami</tspan></text>
   <text class="l l2" x="24" y="102"><tspan class="hl">manuel</tspan><tspan class="out">, freelance dev from switzerland</tspan></text>
@@ -40,7 +40,7 @@
   <text class="l l5" x="24" y="212"><tspan class="dir">~</tspan> <tspan class="prompt">❯</tspan> <tspan class="cmd">ls now/</tspan></text>
   <text class="l l6" x="24" y="238"><tspan class="dir">small-products/</tspan>  <tspan class="dir">client-sites/</tspan>  <tspan class="dir">self-hosted-infra/</tspan></text>
 
-  <text class="l l7" x="24" y="280"><tspan class="dir">~</tspan> <tspan class="prompt">❯</tspan> <tspan class="cmd">open</tspan> <tspan class="link">https://manuel.sh</tspan></text>
+  <text class="l l7" x="24" y="280"><tspan class="dir">~</tspan> <tspan class="prompt">❯</tspan> <tspan class="cmd">open</tspan> <tspan class="link">https://hedinger-digital.ch</tspan></text>
 
   <text class="l l8" x="24" y="322"><tspan class="dir">~</tspan> <tspan class="prompt">❯</tspan></text>
   <rect class="l l9 cursor" x="62" y="308" width="9" height="18"/>
