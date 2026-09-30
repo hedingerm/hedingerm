@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 372" width="800" height="372" role="img" aria-label="Terminal session: whoami, stack, now, and a link to manuel.sh">
+  <style>
+    .bg { fill: #faf4ed; }
+    .bar { fill: #f2e9e1; }
+    .border { stroke: #f2e9e1; }
+    .title { fill: #9893a5; }
+    text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; font-size: 15px; fill: #575279; }
+    .title { font-size: 13px; }
+    .dir { fill: #56949f; }
+    .prompt { fill: #907aa9; }
+    .cmd { fill: #575279; }
+    .out { fill: #797593; }
+    .hl { fill: #ea9d34; }
+    .link { fill: #d7827e; }
+    .cursor { fill: #575279; animation: blink 1.1s steps(1) infinite; }
+    .l { opacity: 0; animation: show 0.01s linear forwards; }
+    .l1 { animation-delay: 0.3s; } .l2 { animation-delay: 0.9s; }
+    .l3 { animation-delay: 1.7s; } .l4 { animation-delay: 2.3s; }
+    .l5 { animation-delay: 3.1s; } .l6 { animation-delay: 3.7s; }
+    .l7 { animation-delay: 4.5s; } .l8 { animation-delay: 5.1s; }
+    .l9 { animation-delay: 5.7s; }
+    @keyframes show { to { opacity: 1; } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .l { opacity: 1; animation: none; } .cursor { animation: none; } }
+  </style>
+
+  <rect class="bg border" x="0.5" y="0.5" width="799" height="371" rx="10" stroke-width="1"/>
+  <path class="bar" d="M1 11a10 10 0 0 1 10-10h778a10 10 0 0 1 10 10v27H1z"/>
+  <circle cx="22" cy="20" r="6" fill="#b4637a"/>
+  <circle cx="42" cy="20" r="6" fill="#ea9d34"/>
+  <circle cx="62" cy="20" r="6" fill="#56949f"/>
+  <text class="title" x="400" y="24" text-anchor="middle">manuel@manuel.sh: ~</text>
+
+  <text class="l l1" x="24" y="76"><tspan class="dir">~</tspan> <tspan class="prompt">❯</tspan> <tspan class="cmd">whoami</tspan></text>
+  <text class="l l2" x="24" y="102"><tspan class="hl">manuel</tspan><tspan class="out">, freelance dev from switzerland</tspan></text>
+
+  <text class="l l3" x="24" y="144"><tspan class="dir">~</tspan> <tspan class="prompt">❯</tspan> <tspan class="cmd">cat stack.txt</tspan></text>
+  <text class="l l4" x="24" y="170"><tspan class="out">typescript  bun  next.js  astro  tailwind  postgres</tspan></text>
+
+  <text class="l l5" x="24" y="212"><tspan class="dir">~</tspan> <tspan class="prompt">❯</tspan> <tspan class="cmd">ls now/</tspan></text>
+  <text class="l l6" x="24" y="238"><tspan class="dir">small-products/</tspan>  <tspan class="dir">client-sites/</tspan>  <tspan class="dir">self-hosted-infra/</tspan></text>
+
+  <text class="l l7" x="24" y="280"><tspan class="dir">~</tspan> <tspan class="prompt">❯</tspan> <tspan class="cmd">open</tspan> <tspan class="link">https://manuel.sh</tspan></text>
+
+  <text class="l l8" x="24" y="322"><tspan class="dir">~</tspan> <tspan class="prompt">❯</tspan></text>
+  <rect class="l l9 cursor" x="62" y="308" width="9" height="18"/>
+</svg>
